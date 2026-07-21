@@ -29,7 +29,7 @@ function Blog() {
 
     return (
         <div className="blog-page">
-            <h1>blog</h1>
+            <h1>blog | <a href="https://medium.com/@ravishvishwa" target="_blank" rel="noopener"> Medium</a> | <a href="https://substack.com/@ravishvishwakarma" target="_blank" rel="noopener">Substack</a></h1>
             <label className="blog-search" htmlFor="blog-search">
                 <span className="sr-only">search blogs</span>
                 <input

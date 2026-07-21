@@ -24,10 +24,10 @@ function Home() {
                         <p>Hi, I am Ravish, I like to build things (by things I mean anything which seems cool to me)</p>
                     </div>
                     <div className="home-tagline">
-                        <p>I Just Love Automation And Good Asthetics</p>
+                        <p>I Just Love Automation And Building Tools</p>
                     </div>
                     <div className="home-tagline">
-                        <p>Open To Talk To Everyone</p>
+                        <p>Open To <a href="https://www.instagram.com/ravish_vishwa" target="_blank">Talk</a> To Everyone</p>
                     </div>
                     <div>
                         <p className="" style={{}}>I Mostly Build Things Which Saves My Time And <b>Looks Good</b> Like: <a href="https://github.com/Ravish-Vishwakarma/bijli" target="_blank">BIJLI</a> & <a href="https://github.com/Ravish-Vishwakarma/Loon" target="_blank">LOON</a></p>

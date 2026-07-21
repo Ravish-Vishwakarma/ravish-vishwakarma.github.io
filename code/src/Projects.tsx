@@ -4,13 +4,13 @@ import bijliImg from "./assets/images/bijli.png";
 const projects = [
     {
         title: "Bijli",
-        description: "A minimal electricity tracker that just works.",
+        description: "Extension launcher for your memes, local and fast!",
         image: bijliImg,
         link: "https://github.com/Ravish-Vishwakarma/bijli",
     },
     {
         title: "Loon",
-        description: "Lightweight notification daemon for the terminal.",
+        description: "A fast, local speech-to-text transcription app for Windows.",
         image: loonImg,
         link: "https://github.com/Ravish-Vishwakarma/Loon",
     }
@@ -26,7 +26,7 @@ function ProjectsPage() {
                         key={project.title}
                         href={project.link}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener"
                         className="project-card"
                     >
                         <div className="project-image">
