@@ -1,5 +1,6 @@
 import penguin from "../assets/images/penguin.png";
 import asperite from "../assets/images/asperite.png";
+import jantarmantar from "../assets/images/jantar_mantar.png";
 import ravish from "/ravish.gif";
 
 function BadgeLinks() {
@@ -15,6 +16,11 @@ function BadgeLinks() {
                 </a>
                 <a href="https://ravish-vishwakarma.github.io/" target="_blank" rel="noopener noreferrer">
                     <img src={ravish} alt="Linux" width="88" height="31" />
+                </a>
+            </div>
+            <div className="badge-row">
+                <a href="https://en.wikipedia.org/wiki/2026_Delhi_Jantar_Mantar_protests" target="_blank" rel="noopener noreferrer">
+                    <img src={jantarmantar} alt="Linux" width="88" height="31" />
                 </a>
             </div>
         </div>
