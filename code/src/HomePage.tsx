@@ -2,6 +2,7 @@ import { Pin } from "lucide-react";
 import { GameOfLife } from "./components/GameOfLife";
 import { StatusCard } from "./components/StatusCard";
 import { BadgeLinks } from "./components/BadgeLinks";
+import { BitcoinPuzzle } from "./components/BitcoinPuzzle";
 import { TimeCard } from "./components/TimeCard";
 import { SocialCard } from "./components/SocialCard";
 
@@ -55,6 +56,7 @@ function Home() {
             <aside className="home-sidebar">
                 <GameOfLife />
                 <BadgeLinks />
+                <BitcoinPuzzle />
             </aside>
         </div>
     );

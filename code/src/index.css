@@ -1088,6 +1088,136 @@ main {
     image-rendering: pixelated;
 }
 
+/* ----------------------------------- BITCOIN PUZZLE ----------------------------------- */
+.btc-widget {
+    border: var(--border);
+    border-radius: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btc-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.5;
+}
+
+.btc-link {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    text-decoration: none;
+    opacity: 0.4;
+    transition: opacity 0.15s ease;
+}
+
+.btc-link:hover {
+    opacity: 0.8;
+}
+
+.btc-passkey-row {
+    border: var(--border);
+    border-radius: 2px;
+    padding: 6px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.btc-passkey {
+    font-family: var(--font-main);
+    font-size: 9px;
+    line-height: 1.6;
+    word-break: break-all;
+    opacity: 0.6;
+    display: block;
+    white-space: pre-wrap;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.btc-passkey-found {
+    color: #4caf50;
+    border-color: #4caf50;
+    opacity: 1;
+}
+
+.btc-passkey-miss {
+    color: #e53935;
+    opacity: 0.7;
+}
+
+.btc-controls {
+    display: flex;
+    gap: 4px;
+}
+
+.btc-btn {
+    font-family: var(--font-main);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 6px;
+    border: var(--border);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.btc-btn:hover {
+    background: var(--surface, #111);
+}
+
+.btc-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.btc-progress {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.btc-progress-bar {
+    height: 100%;
+    background: var(--text);
+    transition: width 0.1s linear;
+    border-radius: 2px;
+}
+
+.btc-result {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 4px 6px;
+    border: var(--border);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.btc-found {
+    color: #4caf50;
+    border-color: #4caf50;
+}
+
+.btc-miss {
+    opacity: 0.4;
+}
+
 /* ----------------------------------- TYPOGRAPHY ----------------------------------- */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
