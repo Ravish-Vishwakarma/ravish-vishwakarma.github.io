@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const posts = [
     {
+        slug: "wordle-solver",
+        title: "How To Solve Wordle",
+        date: "2026-07-16",
+        excerpt: "In this I will show you how to solve wordle",
+        path: "/blog/wordle-solver",
+    },
+    {
         slug: "hello-world",
         title: "hello world",
         date: "2026-07-16",

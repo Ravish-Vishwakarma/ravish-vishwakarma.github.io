@@ -10,6 +10,7 @@ import { ProjectsPage } from "./Projects";
 import { PythonPage } from "./resources/PythonPage";
 import { FlutterPage } from "./resources/FlutterPage";
 import { CyberSecurityPage } from "./resources/CyberSecurityPage";
+import { WordleSolverBlog } from "./blogs/wordle-solver";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -56,6 +57,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/hello-world" element={<HelloWorld />} />
+          <Route path="/blog/wordle-solver" element={<WordleSolverBlog />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/resources/python" element={<PythonPage />} />
           <Route path="/resources/flutter" element={<FlutterPage />} />
