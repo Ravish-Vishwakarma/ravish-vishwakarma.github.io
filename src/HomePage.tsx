@@ -47,6 +47,10 @@ function Home() {
                             <p><i>"Doing The Thing Is The Only Way To Do The Thing"</i>, thinking about the task, planing about how will you do the task, thinking about how much praise will you get once you finished the task doesn't comes under doing the task.</p>
                         </div>
                         <div className="thought-item">
+                            <span className="thought-date">04 September 2026</span>
+                            <p>People rarely appreciate what they have until it is lost. Don't wait for the end to see its worth, be grateful for every single day.</p>
+                        </div>
+                        <div className="thought-item">
                             <span className="thought-date">16 July 2026</span>
                             <p>I guess teaching a topic which get used in everydays life should come with a example which peolple can tell others to show off their knowledge, I guess people always remember those things more than the topic itself.</p>
                         </div>
