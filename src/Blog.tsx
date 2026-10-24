@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 
 const posts = [
     {
+        slug: "check-leap-year",
+        title: "How to check a year is a leap year or not",
+        date: "2026-10-24",
+        excerpt: "In this I will show you how to check a year is leap year or not",
+        path: "/check-leap-year",
+    },
+    {
         slug: "wordle-solver",
         title: "How To Solve Wordle",
         date: "2026-07-16",

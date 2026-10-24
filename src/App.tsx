@@ -11,6 +11,7 @@ import { PythonPage } from "./resources/PythonPage";
 import { FlutterPage } from "./resources/FlutterPage";
 import { CyberSecurityPage } from "./resources/CyberSecurityPage";
 import { WordleSolverBlog } from "./blogs/wordle-solver";
+import { CheckLeapYear } from "./blogs/check-leap-year";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -63,6 +64,7 @@ function App() {
           <Route path="/resources/flutter" element={<FlutterPage />} />
           <Route path="/resources/cyber-security" element={<CyberSecurityPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/check-leap-year" element={<CheckLeapYear />} />
         </Routes>
       </main>
     </div>

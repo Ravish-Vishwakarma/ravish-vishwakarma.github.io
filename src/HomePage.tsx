@@ -4,7 +4,7 @@ import { StatusCard } from "./components/StatusCard";
 import { BadgeLinks } from "./components/BadgeLinks";
 import { BitcoinPuzzle } from "./components/BitcoinPuzzle";
 import { TimeCard } from "./components/TimeCard";
-import { SocialCard } from "./components/SocialCard";
+// import { SocialCard } from "./components/SocialCard";
 
 function Home() {
     return (
@@ -37,7 +37,7 @@ function Home() {
                 <div className="home-card-area">
                     <StatusCard />
                     <TimeCard />
-                    <SocialCard />
+                    {/* <SocialCard /> */}
                 </div>
                 <section className="home-thoughts">
                     <h2>Random Thoughts</h2>
